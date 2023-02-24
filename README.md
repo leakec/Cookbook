@@ -1,4 +1,4 @@
-| [**Cookbook**](https://leakec.github.io/Cookbook/) | [**Build**](#build) |
+[**Cookbook**](https://leakec.github.io/Cookbook/) | [**Build**](#build)
 
 # About
 
