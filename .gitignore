@@ -1,3 +1,9 @@
+# Custom added
+Pass.py
+*/site
+docs
+lazy-lock.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
