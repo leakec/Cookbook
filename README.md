@@ -1,6 +1,8 @@
-# Cookbook
+| [**Cookbook**](https://leakec.github.io/Cookbook/) | [**Build**](#build) |
 
-This repository stores some recipes I like in a convenient to access cookbook. I'm making it public so I can access it from anywhere, but this is not an actively maintained or quality-controlled respository.
+# About
+
+This repository stores some recipes I like in a convenient to access [cookbook](https://leakec.github.io/Cookbook/). I'm making it public so I can access it from anywhere, but this is not an actively maintained or quality-controlled respository.
 
 # Build
 
@@ -10,7 +12,7 @@ The following steps can be used to build the website:
 1. Open the server using the link provided by the mkdocs output.
 1. Use "ctrl + C" to close the server when done.
 
-# Local file build (no server)
+## Local file build (no server)
 
 The following steps will build the website locally. Note, the search functionality will not work
 when building locally.
