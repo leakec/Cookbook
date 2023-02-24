@@ -26,14 +26,17 @@ website_ngrok: copy_data
 website: local
 	sudo cp -r site/* /var/www/home/
 
-$(RECIPES)/%.md: $(RECIPE_DATA)/%.yml
+$(RECIPES)/%.md: $(RECIPE_DATA)/%.yml $(DOCS)
 	mkdir -p $(RECIPES)
 	./scripts/recipe_converter --template-file $(RECIPE_TEMPLATE) $< $@ 
 
-tags:
+$(DOCS): 
+	mkdir -p $(DOCS)
+
+tags: $(DOCS)
 	./scripts/tags $(DOCS) recipes $(RECIPES_YML)
 
-all_recipes:
+all_recipes: $(DOCS)
 	./scripts/all_recipes $(DOCS) recipes $(RECIPES_YML)
 
 copy_data: tags all_recipes $(RECIPES_MD)
