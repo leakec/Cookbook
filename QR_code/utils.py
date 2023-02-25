@@ -45,8 +45,9 @@ def remap(c1: Color, c2: Color, c3: Color, c4: Color, image: Path, new_image: Pa
 white = (1.0, 1.0, 1.0, 1.0)
 black = (0.0, 0.0, 0.0, 1.0)
 purple = (0.5, 0.0, 1.0, 1.0)
+purple = (0.235, 0.0, 0.322, 1.0)
 
-image = Path("test.png")
-new_image = Path("new_test.png")
+image = Path("QR_code.png")
+new_image = Path("QR_code_recolor.png")
 
 remap(white, black, purple, black, image, new_image)
