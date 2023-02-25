@@ -1,0 +1,47 @@
+# Originally from here: https://thisitaliankitchen.com/sausage-kale-pasta/
+title: Sausage Kale Pasta
+chef: Angela Kallison
+ingredients:
+    - name: Spicy italian sausage
+      amount: 4-5
+      units: links
+    - name: Kale
+      amount: 10
+      units: oz
+    - name: Rigatoni pasta
+      amount: 16
+      units: oz
+      notes: Any larger pasta with a big opening will do.
+    - name: Onion
+      amount: 1
+    - name: Garlic
+      amount: 1-2
+      units: cloves
+    - name: Parmesean cheese
+      notes: To taste.
+    - name: Salt
+      notes: For the pasta water.
+    - name: Red pepper
+      notes: To taste.
+time:
+    prep:
+        hh: 0
+        mm: 5
+    cook:
+        hh: 0
+        mm: 15
+steps:
+    - Dice up the onion and the garlic.
+    - Remove the sausage from the casing and crumble into a pan.
+    - Simultaneously, start cooking the pasta. Add a bit of salt to the pasta water.
+    - Once the sausage has cooked a bit, add the onion and the garlic.
+    - Once the onion has softened and the sausage is browned, add the kale and cook until it wilts.
+    - Add red peper to taste (I like mine spicy).
+    - Stop cooking the pasta one minute before it is done.
+    - Add the pasta to the dish.
+    - Create a light sauce with the cheese and pasta water.
+    - Serve with extra parmesean on top.
+tags:
+    - Region/Italy
+    - Italian
+    - Entrees
