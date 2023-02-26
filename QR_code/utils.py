@@ -33,8 +33,9 @@ def remap(c1: Color, c2: Color, c3: Color, c4: Color, image: Path, new_image: Pa
 
     with Image.open(image) as f:
         pix_vals = np.array(f)
-        t = inv_lerp(c1, c2, pix_vals / 255.0)
-        new_pix_vals = lerp(c3, c4, t) * 255.0
+
+    t = inv_lerp(c1, c2, pix_vals / 255.0)
+    new_pix_vals = lerp(c3, c4, t) * 255.0
     new_pix_vals = np.nan_to_num(new_pix_vals, nan=255.0)
     new_pix_vals = np.array(new_pix_vals, dtype=np.uint8)
 
