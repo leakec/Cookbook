@@ -1,0 +1,62 @@
+title: Carolyn's Crunch Wraps (Crunch Wrap Supreme)
+chef: Carolyn Pittsburg Beauty Barn
+ingredients:
+    - name: Tortillas
+      amount: 8
+      notes: The largest tortillas you can find. Look for burrito tortillas.
+    - name: Tostada shells
+      amount: 8
+    - name: Plant-based ground beef
+      amount: 1
+      units: pound
+      notes: We really like the Beyond Beef brand. You could substitue real ground beef to make it non-vegetarian, but I honestly like it better with the plant-based version.
+    - name: Lettuce
+      amount: 1 cup?
+    - name: Diced tomato and green chilies
+      amount: 1
+      units: can
+      notes: Either use this or the tomato below. Do not use both. I prefer to use this and mix it in with the meat.
+    - name: Tomato, diced
+      amount: 1
+      units: cup
+      notes: Rather than using a tomato here, you can instead add a can of diced tomatos plus green chiles. I like this better than using the tomato.
+    - name: Onion, diced
+      amount: 1/2
+      units: cup
+    - name: sour cream
+      notes: To taste.
+    - name: Tostidos queso dip
+      amount: 1
+      units: jar
+    - name: Tostidos medium salsa
+      amount: 1
+      units: jar
+    - name: Taco seasoning
+      amount: 1
+      units: packet
+    - name: Fresh cilantro
+      notes: To taste.
+
+time:
+    prep:
+        hh: 0
+        mm: 5
+    cook:
+        hh: 0
+        mm: 20
+
+steps:
+    - Heat up the meat. Mix in the tomatoes and taco seasoning while heating.
+    - While your meat is getting real meaty, prep the veggies.
+    - "Once the meat is cooked, heat a frying pan on medium/low and add some olive oil. Assemble the wrap as follows:"
+    - Lay out your tortilla.
+    - Add two tablespoons of queso dip in the center, about the size of one of the tostada shells. Everything will now go atop this circle of cheese.
+    - Add a layer of meat.
+    - Add your tostada.
+    - Add a layer of sour cream if desired.
+    - Add your veggies and salsa (1 tablespoon of salsa).
+    - Gently fold the edge of your tortilla toward the center of the mound you have created, starting in one spot and owkring in a circle. Each new fold slightly overlaps the previous. The final product will be a hexagon (the bestagon). Place this folded side down and heat until golden brown. Flip and do the same on the other side.
+
+tags:
+    - Vegetarian
+    - Entrees
