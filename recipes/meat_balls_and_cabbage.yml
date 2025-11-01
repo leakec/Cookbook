@@ -1,0 +1,46 @@
+title: Meatballs and Cabbage
+chef: Donna Leake
+ingredients:
+  - name: Ground Chuck
+    amount: 1
+    units: pound
+  - name: egg
+    amount: 1
+  - name: Cabbage
+    amount: 1/2
+    units: head
+  - name: Tomato soup
+    amount: 2 
+    units: cans
+  - name: Onion
+    amount: 2
+    units: tablespoons chopped
+  - name: Minute rice
+    amount: 2/3
+    units: cup
+  - name: Water
+    amount: 2
+    units: cups
+  - name: Salt
+    amount: 1
+    units: teaspoon
+  - name: Pepper
+    amount: dash
+  - Rye bread or soda crackers for serving
+time:
+  prep: 
+    hh: 0
+    mm: 20
+  cook:
+    hh: 1
+    mm: 0
+steps:
+  - Season the meat. 
+  - Add onion, rice, and egg to the meat. 
+  - Mix the meat, onion, rice and egg together.
+  - Roll the meat mixture into balls about 4 cm in diameter.
+  - Cut the cabbage into 4 or 5 sections.
+  - Place the cabbage in a pot with meatballs between the sections.
+  - Pour tomato soup and water over the cabbage and meatballs.
+  - Simmer on low for about an hour. Check occasionally to make sure it is not sticking to the pot.
+  - Serve with soda crackers or rye bread.
