@@ -1,0 +1,31 @@
+title: Crack Chicken
+chef: Jeanneane
+ingredients:
+  - name: Chicken boneless
+    amount: 2
+    units: pounds
+  - name: Ranch dressing mix (dry)
+    amount: 3
+    units: tablespoons
+  - name: Butter
+    amount: 3
+    units: tablespoons
+  - name: Cream cheese
+    amount: 4 
+    units: ounces
+time:
+  prep: 
+    hh: 0
+    mm: 10
+  cook:
+    hh: 6
+    mm: 0
+steps:
+  - Place chicken (fresh or frozen) in crockpot.
+  - Cut up butter and cream cheese into chunks and place on chicken.
+  - Sprinkle the ranch dressing mix over the chicken.
+  - Cook chicken in crock pot for 3-4 hours on high or 5-7 hours on low. Check moisture during the second half of cooking, if too try, add 2-4 tablespoons of water.
+  - Shred chicken before serving.
+  - Serve chicken over vegetables, noodles, or rice.
+tags:
+  - Entrees
