@@ -26,7 +26,7 @@ ingredients:
     units: teaspoon
   - name: Pepper
     amount: dash
-  - Rye bread or soda crackers for serving
+  - name: Rye bread or soda crackers for serving
 time:
   prep: 
     hh: 0
