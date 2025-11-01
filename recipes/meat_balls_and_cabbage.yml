@@ -13,7 +13,7 @@ ingredients:
     amount: 2 
     units: cans
   - name: Onion
-    amount: 2
+    amount: 2 (or more)
     units: tablespoons chopped
   - name: Minute rice
     amount: 2/3
@@ -42,5 +42,5 @@ steps:
   - Cut the cabbage into 4 or 5 sections.
   - Place the cabbage in a pot with meatballs between the sections.
   - Pour tomato soup and water over the cabbage and meatballs.
-  - Simmer on low for about an hour. Check occasionally to make sure it is not sticking to the pot.
+  - Cover and simmer on low for about an hour. Check occasionally to make sure it is not sticking to the pot.
   - Serve with soda crackers or rye bread.
