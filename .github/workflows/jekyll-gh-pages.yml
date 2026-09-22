@@ -26,12 +26,12 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/checkout@v3
-            - uses: actions/setup-python@v3
+              uses: actions/checkout@v7
+            - uses: actions/setup-python@v7
             - name: Add dependencies
               run: python -m pip install -r requirements.txt
             - name: Setup Pages
-              uses: actions/configure-pages@v2
+              uses: actions/configure-pages@v6
             - name: Build website
               run: make local
             - name: Build with Jekyll
@@ -40,7 +40,7 @@ jobs:
                   source: ./site
                   destination: ./_site
             - name: Upload artifact
-              uses: actions/upload-pages-artifact@v4
+              uses: actions/upload-pages-artifact@v5
 
     # Deployment job
     deploy:
@@ -52,4 +52,4 @@ jobs:
         steps:
             - name: Deploy to GitHub Pages
               id: deployment
-              uses: actions/deploy-pages@v4
+              uses: actions/deploy-pages@v5
