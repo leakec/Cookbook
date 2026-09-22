@@ -1,0 +1,46 @@
+# Originally from here: https://www.youtube.com/watch?v=5mIbyUgNOlo
+title: Chicago tavern style pizza crust
+
+ingredients:
+  - name: flour
+    units: grams
+    amount: <span id="flour">300</span>
+  - name: salt
+    units: grams
+    amount: <span id="salt">7.5</span>
+  - name: sugar
+    units: grams
+    amount: <span id="sugar">7.5</span>
+  - name: yeast
+    units: grams
+    amount: <span id="yeast">1.5</span>
+  - name: oil
+    units: grams
+    amount: <span id="oil">30</span>
+  - name: water
+    units: grams
+    amount: <span id="water">150</span>
+
+time:
+  prep:
+    hh: 0
+    mm: 15
+  cook:
+    hh: 0
+    mm: 0
+
+extra_title: Calculator
+extra: recipes/pizza_calculator.md
+
+steps:
+  - Combine all dry ingredients first and mix
+  - Add in wet ingredients
+  - Mix together into a shaggy ball
+  - Wait 10 minutes for dought to hydrate
+  - Kneed for 10 minutes
+  - Separate into <span id="count">2</span> ball(s)
+  - Cover ball(s) in oil and put in a container in the refridgerator for 3-5 days
+
+tags:
+  - Region/Italy
+  - Entrees

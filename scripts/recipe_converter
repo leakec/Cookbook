@@ -1,8 +1,10 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 import yaml
 import click
 from typing import Optional, Dict
+from pathlib import Path
+from jinja2 import Environment, BaseLoader, select_autoescape
 
 # Setup click
 @click.command(context_settings=dict(help_option_names=["-h","--help"]))
@@ -88,13 +90,33 @@ ingredients = [ingredient_formatter(i) for i in data['ingredients']]
 # Get steps
 steps = ["  1. {}\n".format(step) for step in data['steps']]
 
+extra_file = data.get("extra",None)
+extra_title = data.get("extra_title", None)
+
+if extra_file:
+    with open(extra_file, "r") as f:
+        extra = f.read()
+else:
+    extra = None
+
 # Apply data to template
 with open(templateFile, "r") as f:
     template = f.read()
 
-recipe = template.format(title=title,chef=chef,time=time,ingredients=''.join(ingredients),steps=''.join(steps))
+env = Environment(loader=BaseLoader(), autoescape=select_autoescape())
+with open(templateFile, "r") as f:
+    template = env.from_string(f.read())
+
+recipe = template.render(
+    title=title,
+    chef=chef,
+    time=time,
+    ingredients=''.join(ingredients),
+    steps=''.join(steps),
+    extra=extra,
+    extra_title=extra_title,
+)
 
 # Write recipe
 with open(outputFile, "w") as f:
     f.write(recipe)
-

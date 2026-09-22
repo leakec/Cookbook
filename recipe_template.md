@@ -1,15 +1,20 @@
-# {title}
+# {{title}}
 
-{chef}
+{{chef}}
 
 ## Time
 
-{time}
+{{time | safe}}
+
+{% if extra is not none %}
+## {{extra_title}}
+{{ extra | safe }}
+{% endif %}
 
 ## Ingredients
 
-{ingredients}
+{{ingredients | safe}}
 
 ## Steps
 
-{steps}
+{{steps | safe}}
