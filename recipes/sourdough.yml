@@ -9,10 +9,10 @@ ingredients:
     amount: <span id="wheatFlour">250</span>
   - name: Water
     units: grams
-    amount: <span id="wheatFlour">375</span>
+    amount: <span id="water">375</span>
   - name: Sourdough starter
     units: grams
-    amount: <span id="wheatFlour">100</span>
+    amount: <span id="starter">100</span>
   - name: Salt
     units: grams
     amount: <span id="salt">10</span>
