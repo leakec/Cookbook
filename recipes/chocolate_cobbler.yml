@@ -8,7 +8,7 @@ ingredients:
       amount: 1/4
       units: cup
     - name: Light brown sugar
-      notes: 1
+      amount: 1
       units: cup
     - name: Miniature marshmallows
       amount: 1
@@ -17,7 +17,7 @@ ingredients:
     - name: Chocolate cake mix
       amount: 1
       units: box
-      notes: prepare as directed, so will need extra ingredients as they specify
+      notes: Prepare as directed, so will need extra ingredients as they specify.
     - name: Semi-sweet chocolate chips
       amount: 6`
       units: oz
