@@ -20,7 +20,7 @@ function calculateSourdough() {
   const flour = count * totFlour
   const breadFlour = flour / 2.0
   const wheatFlour = flour / 2.0
-  const water = four * 0.75
+  const water = flour * 0.75
   const starter = flour * 0.2
   const salt = flour * 0.02
   
