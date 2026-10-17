@@ -1,0 +1,1 @@
+Made [this](https://sallysbakingaddiction.com/giant-chocolate-chip-cookies/) recipe once and it was delicious. I want to try their regular sized  ones and see if they are any better, then put whatever I like best in the cookbook.
