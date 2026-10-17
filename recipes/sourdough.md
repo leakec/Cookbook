@@ -1,0 +1,45 @@
+# Originally from here: https://www.youtube.com/watch?v=5mIbyUgNOlo
+title: Chicago tavern style pizza crust
+
+ingredients:
+  - name: Bread flour
+    units: grams
+    amount: <span id="breadFlour">250</span>
+  - name: Whole wheat flour
+    units: grams
+    amount: <span id="wheatFlour">250</span>
+  - name: Water
+    units: grams
+    amount: <span id="wheatFlour">375</span>
+  - name: Sourdough starter
+    units: grams
+    amount: <span id="wheatFlour">100</span>
+  - name: Salt
+    units: grams
+    amount: <span id="salt">10</span>
+
+time:
+  prep:
+    hh: 4
+    mm: 0
+  cook:
+    hh: 2
+    mm: 0
+
+extra_title: Calculator
+extra: recipes/sourdough_calculator.md
+
+steps:
+  - Mix flour and water together and let sit for 45 minutes to an hour
+  - Add salt and sourdough starter and kneed well for about 10 minutes
+  - Perform 4 stretch and folds about 30 minutes apart
+  - Let sit until proofed
+  - Shape into a loaf, put into a pan, and let sit in the fridge overnight. Anywhere from 8-24 hours is good.
+  - Heat a dutch oven in the oven for at least 30 minutes (30 minutes includes whatever the preheat time is) at 450 F.
+  - Pull the loaf out of the fridge just before the 30 minutes is up. Place on a sheet of parchment paper and score it.
+  - Cook in the dutch oven with the lid on for 30 minutes at 450 F.
+  - Remove the lid and cook for another 15 minutes at 400 F.
+  - Let cool for at least 45 minutes before cutting into it. I like to let it cool for 30 on a wire rack, then stick it directly in the bread bin for the rest of the cooling time.
+
+tags:
+  - Bread
